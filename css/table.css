@@ -1,0 +1,29 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+QTableView {
+    color: #fff;
+    background-color: #222;
+    border: none;
+}
+
+QHeaderView::section {
+    background-color: #E95065;
+    font-weight: bold;
+    color: #fff;
+    height: 35px;
+    font: 20px;
+    padding: 10px;
+    border: none;
+}
+
+QTableView::item {
+    border: none;
+}
+
+QTableView::item:focus {
+    background-color: #555;
+    border: none;
+}

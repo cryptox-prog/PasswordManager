@@ -1,0 +1,12 @@
+QPlainTextEdit {
+    background-color: #3D3D3D;
+    color: #95959E;
+    border-radius: 0px;
+    padding: 5px;
+    border-bottom: 4px solid transparent;
+    font-size: 19px;
+}
+
+QPlainTextEdit:focus {
+    border-bottom: 4px solid #E95065;
+}
